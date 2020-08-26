@@ -1,0 +1,144 @@
+.input-group-glue
+{
+  display: table-cell;
+}
+
+.input-group-glue + .form-control
+{
+  border-left: none;
+}
+.input-group > input[placeholder]
+{
+  text-align: center;
+}
+
+
+/*Clone buttons*/
+.cloneya .clone, .cloneya > .delete {
+  margin-top: 30px;
+  padding: 0;
+  width: auto;
+  padding-right: 1em;
+}
+
+
+#previews {
+  img {
+    width: 80px;
+  }
+}
+
+
+h1 + .alert {
+  margin-top: 20px;
+}
+
+
+.sub-settings {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding-bottom: 0.5em;
+  margin-bottom: 24px;
+  margin-top: 48px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.tax-row {
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 15px;
+}
+
+.addon-wrapper {
+    .tax-row:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    
+    
+    
+    .tax-row:not(:first-child) {
+        
+        .cloneya .clone, .cloneya > .delete {
+            margin-top: 6px;
+        }
+        
+        .control-label {
+            display: none;
+        }
+    }
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-20 {
+  margin: 0 0 20px 0;
+}
+
+.w-50p {
+  width: 50%;
+}
+
+#revenue-chart {
+  position: relative; height: 300px;
+}
+
+#sales-chart {
+  position: relative; height: 300px;
+}
+
+.dropzone.dz-clickable .dz-message {
+  min-height: 180px;
+  border: 3px dashed #333;
+  text-align: center;
+  line-height: 180px;
+  font-size: 24px;
+  color: #CCC;
+  margin-bottom: 24px;
+  cursor: pointer;
+
+  .dz-button {
+    border: none;
+    width: 100%;
+  }
+}
+
+.file-row {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.dz-preview-file {
+  float: left;
+  margin-right: 12px;
+}
+
+.dz-file-info {
+  float: left;
+}
+
+.dz-preview-file img {
+  width: 80px;
+}
+
+.dz-complete .progress,
+.dz-complete .cancel,
+.file-row .delete
+{
+  display: none;
+}
+
+.dz-success .delete,
+.dz-complete .delete{
+  display: block;
+}
+
+.file-row .progress {
+  height: 4px !important;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
