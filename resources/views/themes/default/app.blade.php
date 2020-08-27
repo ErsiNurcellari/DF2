@@ -121,20 +121,6 @@
                 </ul>
 
                 @include('themes.default.account.notifications_popup')
-
-                <form class="navbar-form navbar-right" action="{{route('search')}}">
-                    <div class="form-group">
-                        <div class="input-group">
-                            <input type="text" class="form-control" name="q"
-                                   placeholder="@lang('search')" @isset($q)value="{{$q}}@endisset"/>
-                            <span class="input-group-btn">
-        <button class="btn btn-default" type="submit">
-            <i class="fa fa-search"></i>
-        </button>
-      </span>
-                        </div>
-                    </div>
-                </form>
             </div>
         </div>
     </nav>

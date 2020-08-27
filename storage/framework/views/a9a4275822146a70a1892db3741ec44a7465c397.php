@@ -1,6 +1,4 @@
-@extends('themes.default.app')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <div class="container archive">
       <div class="jumbotron">
         <div class="container">
@@ -31,4 +29,6 @@
           </div>
         </div>
     </div>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('themes.default.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/suf/sites/dacafilers/current/public/resources/views/themes/default/index.blade.php ENDPATH**/ ?>
